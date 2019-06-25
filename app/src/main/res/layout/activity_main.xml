@@ -4,15 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#999999"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <com.example.administrator.pathapi.DragDoubleView
+        android:id="@+id/bubbleView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:bubble_color="#ff0000"
+        app:bubble_radius="12dp"
+        app:bubble_text="12"
+        app:bubble_textColor="#ffffff"
+        app:bubble_textSize="12dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>

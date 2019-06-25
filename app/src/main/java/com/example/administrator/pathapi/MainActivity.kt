@@ -7,11 +7,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main)
         // 常用api
 //        setContentView(PathApi(this))
         //多阶贝塞尔曲线
-        setContentView(BezierView(this))
+//        setContentView(BezierView(this))
+
+//        setContentView(DragDoubleView(this))
 
     }
 }
